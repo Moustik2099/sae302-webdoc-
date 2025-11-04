@@ -1,0 +1,158 @@
+body{
+    margin: 20px;
+    background-color: #000000;
+    color: #cfc8c8;
+}
+h1{
+    text-align: center;
+    color: #decf2c;
+}
+hr{
+    border: 1px solid #decf2c;
+}
+p{
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.fleur topright{
+    position : relative
+    top 0;
+    right 0;
+    
+}
+
+body {
+    margin-top : 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+ /* background-image: url('image/tatoo_batmane_polyn.jpg');*/
+  background-size: cover;      /* L’image couvre tout l’écran */
+  background-position: center; /* Centrage de l’image */
+  background-repeat: no-repeat;/* Empêche la répétition */
+}
+}
+
+
+
+
+/* Réinitialisation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Barre de navigation */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f7d300;
+}
+
+nav a.appointment {
+  color: #f7d300;
+  font-weight: bold;
+}
+
+/* Section principale */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('fond.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero .content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 4em;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.hero h1 span {
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 1.2em;
+  letter-spacing: 5px;
+  color: #f7d300;
+  margin-bottom: 20px;
+}
+
+.hero .links {
+  font-size: 1.1em;
+}
+
+.hero .links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.hero .links a:hover {
+  color: #f7d300;
+}
+
+.scroll-icon {
+  margin-top: 40px;
+  font-size: 2em;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background: #fff;
+}
+
+footer h3 {
+  color: #f7d300;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2em;
+}
